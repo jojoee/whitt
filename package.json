@@ -95,7 +95,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/jojoee/whitt"
+    "url": "https://github.com/jojoee/whitt.git"
   },
   "jest": {
     "moduleNameMapper": {
