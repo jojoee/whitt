@@ -1,1 +1,24 @@
+# Logs
+logs
+*.log*
+
+# Coverage
+coverage
+lib-cov
+
+# Build
+build/Release
+
+# Dependency directory
 node_modules
+
+# Dist
+dist
+
+# IDE & Editor
+.idea
+*.iml
+.vscode
+
+# OS
+.DS_Store
