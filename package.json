@@ -1,7 +1,8 @@
 {
   "name": "whitt",
   "description": "Dashboard template",
-  "version": "0.0.0",
+  "version": "0.0.0-development",
+  "main": "src/index.js",
   "engines": {
     "npm": ">=6"
   },
@@ -20,7 +21,7 @@
     "build": "babel-node tools/build.js",
     "test": "node --harmony_proxies node_modules/jest/bin/jest",
     "test:cover": "npm run test -- --coverage ",
-    "test:cover:report": "cat ./coverage/lcov.info | node_modules/coveralls/bin/coveralls.js",
+    "test:cover:report": "cat ./coverage/lcov.info | codecov",
     "test:watch": "npm run test -- --watch",
     "open:cover": "npm run test:cover && open coverage/lcov-report/index.html",
     "analyze-bundle": "babel-node ./tools/analyzeBundle.js"
