@@ -1,5 +1,8 @@
 import React, { PropTypes } from 'react';
-import { Link, IndexLink } from 'react-router';
+import {
+  Link,
+  IndexLink,
+} from 'react-router';
 
 // This is a class-based component because the current
 // version of hot reloading won't hot reload a stateless
@@ -8,11 +11,12 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <IndexLink to="/">Home</IndexLink>
-        {' | '}
-        <Link to="/fuel-savings">Demo App</Link>
-        {' | '}
-        <Link to="/about">About</Link>
+        <ol>
+          <li><IndexLink to="/">Home</IndexLink></li>
+          <li><Link to="/dashboard">Dashboard</Link></li>
+          <li><Link to="/about">AboutPage</Link></li>
+          <li><Link to="/404">NotFoundPage</Link></li>
+        </ol>
         <br/>
         {this.props.children}
       </div>
