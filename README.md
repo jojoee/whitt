@@ -1,7 +1,7 @@
 # whitt
 
 [![Travis](https://img.shields.io/travis/jojoee/whitt.svg)](https://travis-ci.org/jojoee/whitt)
-[![codecov](https://codecov.io/gh/jojoee/whitt/branch/master/graph/badge.svg)](https://codecov.io/github/jojoee/whitt)
+[![Coverage Status](https://coveralls.io/repos/github/jojoee/whitt/badge.svg?branch=master)](https://coveralls.io/github/jojoee/whitt?branch=master)
 
 Dashboard template
 
