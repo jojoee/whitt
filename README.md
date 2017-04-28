@@ -17,9 +17,9 @@ Dashboard template
 - [ ] First release
 - [ ] Snapshot
 - [ ] Storybook'
-- [ ] `redux-undo`
-
-build pass cannot test reducer
+- [ ] Implement `redux-undo`
+- [ ] Implement `initialState.js`
+- [ ] Increase test coverage
 
 ## Cli
 ```
