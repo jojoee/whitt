@@ -13,13 +13,23 @@ Dashboard template
 
 ## Update
 - [x] Build on travis-ci
-- [ ] Coverage report on coveralls
+- [ ] Test
+- [ ] First release
+- [ ] Snapshot
+- [ ] Storybook'
+- [ ] `redux-undo`
+
+build pass cannot test reducer
 
 ## Cli
 ```
 yarn start
 yarn build
+yarn open:dist
+
+yarn lint
+yarn lint:watch
 ```
 
 ## Reference
-- Stater project from: [coryhouse/react-slingshot](https://github.com/coryhouse/react-slingshot)@6.0
+- Stater project from: [coryhouse/react-slingshot@6.0](https://github.com/coryhouse/react-slingshot/tree/6.0)

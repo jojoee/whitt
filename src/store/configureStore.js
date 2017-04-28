@@ -1,4 +1,8 @@
-import {createStore, compose, applyMiddleware} from 'redux';
+import {
+  createStore,
+  compose,
+  applyMiddleware,
+} from 'redux';
 import reduxImmutableStateInvariant from 'redux-immutable-state-invariant';
 import thunk from 'redux-thunk';
 import rootReducer from '../reducers';
@@ -13,7 +17,7 @@ function configureStoreProd(initialState) {
   ];
 
   return createStore(rootReducer, initialState, compose(
-    applyMiddleware(...middlewares)
+      applyMiddleware(...middlewares)
     )
   );
 }

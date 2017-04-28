@@ -11,12 +11,13 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <ol>
+        <ul>
           <li><IndexLink to="/">Home</IndexLink></li>
+          <li><Link to="/todo">TodoPage</Link></li>
           <li><Link to="/dashboard">Dashboard</Link></li>
           <li><Link to="/about">AboutPage</Link></li>
           <li><Link to="/404">NotFoundPage</Link></li>
-        </ol>
+        </ul>
         <br/>
         {this.props.children}
       </div>
