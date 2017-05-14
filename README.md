@@ -11,12 +11,15 @@ Dashboard template
 3. Build: `yarn build`
 4. Open: `yarn open:dist`
 
+## Note
+- Redux
+
 ## Update
 - [x] Build on travis-ci
 - [ ] Test
 - [ ] First release
 - [ ] Snapshot
-- [ ] Storybook'
+- [ ] Storybook
 - [ ] Implement `redux-undo`
 - [ ] Implement `initialState.js`
 - [ ] Increase test coverage
