@@ -3,9 +3,6 @@
   "description": "Dashboard template",
   "version": "0.0.0-development",
   "main": "src/index.js",
-  "engines": {
-    "npm": ">=6"
-  },
   "scripts": {
     "start-message": "babel-node tools/startMessage.js",
     "prestart": "npm-run-all --parallel start-message",
