@@ -1,7 +1,7 @@
 # whitt
 
 [![Travis](https://img.shields.io/travis/jojoee/whitt.svg)](https://travis-ci.org/jojoee/whitt)
-[![Coverage Status](https://coveralls.io/repos/github/jojoee/whitt/badge.svg?branch=master)](https://coveralls.io/github/jojoee/whitt?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/jojoee/whitt/badge.svg?branch=master)](https://coveralls.io/github/jojoee/whitt?branch=master) [![Greenkeeper badge](https://badges.greenkeeper.io/jojoee/whitt.svg)](https://greenkeeper.io/)
 
 Dashboard template
 
